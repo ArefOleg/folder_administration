@@ -1,8 +1,6 @@
 namespace sqlDeclares;
 public static class sqlDeclare{
     public static async void GenerateSql(){
-        Console.WriteLine("DECLARE");
-
         string path = "Declare.txt";
         string inputText = "DECLARE\n" 
         + " counter integer:=0;\n batch_size integer:=0;\n _id varchar2(15 char):='';"
