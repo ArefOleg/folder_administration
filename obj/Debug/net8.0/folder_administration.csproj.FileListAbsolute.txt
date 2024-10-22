@@ -1,0 +1,14 @@
+c:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Debug\net8.0\folder_administration.exe
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Debug\net8.0\folder_administration.deps.json
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Debug\net8.0\folder_administration.runtimeconfig.json
+c:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Debug\net8.0\folder_administration.dll
+c:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Debug\net8.0\folder_administration.pdb
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.AssemblyInfoInputs.cache
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.AssemblyInfo.cs
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.csproj.CoreCompileInputs.cache
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.dll
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\refint\folder_administration.dll
+c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.pdb
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.genruntimeconfig.cache
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\ref\folder_administration.dll
