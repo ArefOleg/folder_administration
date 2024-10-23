@@ -35,8 +35,7 @@ public class LineItems{
 }
 
 public class Order{
-    [XmlElement("LineItems", Namespace = "jetE")]
-    public List<LineItems> lineItems = new List<LineItems>();
+    
     [XmlElement("Revision", Namespace = "jetE")]
     public string Revision = "1";
     [XmlElement("OrderNumber", Namespace = "jetE")]
@@ -63,6 +62,8 @@ public class Order{
     public string AcquiringId { get; set; }
     [XmlElement("CardAcceptorId", Namespace = "jetE")]
     public string CardAcceptorId = "CardAcceptorId";
+    [XmlElement("LineItems", Namespace = "jetE")]
+    public List<LineItems> lineItems = new List<LineItems>();
     public Order(){}
     public Order(String lineItemAmount){        
         this.OrderNumber = "OV" + DateTime.Now.ToString("h:mm:ss dd");
@@ -103,9 +104,9 @@ public class Body{
 
 [XmlRoot("Envelope", Namespace = "soapenvE")]
 public class LWS2{
-        [XmlElement("Body", Namespace = "soapenvE")]
-        public Body body;
         [XmlElement("Header", Namespace = "soapenvE")]
         public Header_LWS header;
+        [XmlElement("Body", Namespace = "soapenvE")]
+        public Body body;        
 
     }

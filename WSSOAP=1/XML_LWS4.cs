@@ -34,10 +34,11 @@ namespace XML_LWS4
     }
     [XmlRoot("Envelope", Namespace = "soapenvE")]
     public class LWS4{
-        [XmlElement("Body", Namespace = "soapenvE")]
-        public Body body;
         [XmlElement("Header", Namespace = "soapenvE")]
         public Header_LWS header;
+        [XmlElement("Body", Namespace = "soapenvE")]
+        public Body body;
+        
 
     }
 }

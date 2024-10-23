@@ -12,3 +12,4 @@ c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\refint
 c:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.pdb
 C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.genruntimeconfig.cache
 C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\ref\folder_administration.dll
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Debug\net8.0\folder_administration.sourcelink.json
