@@ -3,7 +3,8 @@ using LWS8Generator;
 using S12Generator;
 public static class Menu{
     public static void showMenu(){
-        Console.WriteLine("1 Работы с XML \n2 Создать папку и файл\n3 Работы с srvmgr\n4 Вызвать sql скрипты");
+        Console.WriteLine("1 Работы с XML \n2 Создать папку и файл\n3 Работы с srvmgr\n4 Вызвать sql скрипты\n"
+        + "5 Техническая информация");
         int baseChoise = Convert.ToInt32(Console.ReadLine());
         switch(baseChoise){
                 case 1:                
@@ -60,23 +61,12 @@ public static class Menu{
                         svrmgr.chooseAction();                                        
                 break;
                 case 4:
-                        Console.WriteLine("1 - Declare\n2 - Копирование таблицы\n3 - Создать таблицу");
-                        int sqlChoise = Convert.ToInt32(Console.ReadLine());
-                        switch(sqlChoise){
-                                case 1:
-                                        sqlDeclares.sqlDeclare.GenerateSql();      
-                                break;
-                                case 2:
-                                        TableUtility.TableUtility.copyTableAsync();      
-                                break;
-                                case 3:
-                                        TableUtility.TableUtility.createTable();      
-                                break;
-                                default:
-                                break;
-                        }                                       
+                        TableMenu.showMenu();
                 break;
-
+                case 5:{
+                        
+                        break;
+                        }                                                       
                 default:
                 break;
         }
