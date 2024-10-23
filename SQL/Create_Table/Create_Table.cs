@@ -31,8 +31,9 @@ public static class TableUtility{
             colomns.Add(colomn);
         }
         string inputText = $"CREATE TABLE SIEBEL.{tableNewName}(\n";
+        colomns.Last().type = colomns.Last().type.Replace(",","");
         foreach(Colomn colomn in colomns){
-            inputText = inputText + colomn.name + " " + colomn.type + ",\n";
+            inputText = inputText + colomn.name + " " + colomn.type + "\n";
         }
         inputText = inputText + $");\nCOMMIT;\ngrant select,insert,update,delete on SIEBEL.{tableNewName} to SSE_ROLE";
         string path = "CreateTable.txt";

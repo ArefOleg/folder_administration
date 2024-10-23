@@ -1,0 +1,15 @@
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\folder_administration.exe
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\folder_administration.deps.json
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\folder_administration.runtimeconfig.json
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\folder_administration.dll
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\folder_administration.pdb
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.AssemblyInfoInputs.cache
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.AssemblyInfo.cs
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.csproj.CoreCompileInputs.cache
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.sourcelink.json
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.dll
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\refint\folder_administration.dll
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.pdb
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\folder_administration.genruntimeconfig.cache
+C:\Users\ov.arefev\Documents\Arena\folder_administration\obj\Release\net8.0\win-x64\ref\folder_administration.dll

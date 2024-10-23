@@ -1,0 +1,5 @@
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\publish\folder_administration.exe
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\publish\folder_administration.dll
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\publish\folder_administration.deps.json
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\publish\folder_administration.runtimeconfig.json
+C:\Users\ov.arefev\Documents\Arena\folder_administration\bin\Release\net8.0\win-x64\publish\folder_administration.pdb
