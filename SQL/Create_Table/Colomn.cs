@@ -1,12 +1,14 @@
 public class Colomn{
-    public KeyValuePair <int, string> colomn;
+    public string name;
     public string type;
     public Colomn(){
-        Console.WriteLine("Выберите тип данных\n1 Varchar\n2 Date\n3 CHAR");
-        int choiseType = Convert.ToInt32(Console.ReadLine());
-        
+        Console.WriteLine("Название колонки с большой буквы");
         string? name = Console.ReadLine();
-        string? value = Console.ReadLine();
+        this.name = name;
+        Console.WriteLine("Выберите тип данных\n VARCHAR(Размер CHAR)\n Date\n CHAR(1 CHAR)\n NUMBER(Размер)");
+        string? type = Console.ReadLine();
+        this.type = type;
+        
     }
 
 

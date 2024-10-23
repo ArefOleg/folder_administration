@@ -1,2 +1,3 @@
-CREATE TABLE S_PARTY_COPY AS SELECT 
-SELECT ROW_ID, NAME FROM SIEBEL.S_PARTY WHERE //УСЛОВИЕ ПРИ НЕОБХОДИМОСТИ
+CREATE TABLE LOL AS 
+(SELECT * FROM SIEBEL.NON WHERE //УСЛОВИЕ ПРИ НЕОБХОДИМОСТИ)
+grant execute on SIEBEL.LOL TO SSE_ROLE

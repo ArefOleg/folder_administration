@@ -23,10 +23,21 @@ public static class TableUtility{
     public static async Task createTable(){
         Console.WriteLine("Введите название таблицы для создания");
         string? tableNewName = Console.ReadLine();
+        Console.WriteLine("Введите количество колонок");
         int columnCount = Convert.ToInt32(Console.ReadLine());
-        List<string> colomns = new List<string>();
+        List<Colomn> colomns = new List<Colomn>();
         for(int i = 0; i < columnCount; i++){
-            
+            Colomn colomn = new Colomn();
+            colomns.Add(colomn);
+        }
+        string inputText = $"CREATE TABLE SIEBEL.{tableNewName}(\n";
+        foreach(Colomn colomn in colomns){
+            inputText = inputText + colomn.name + " " + colomn.type + ",\n";
+        }
+        inputText = inputText + $");\nCOMMIT;\ngrant select,insert,update,delete on SIEBEL.{tableNewName} to SSE_ROLE";
+        string path = "CreateTable.txt";
+        using (StreamWriter writer = new StreamWriter(path, false)){
+            await writer.WriteLineAsync(inputText);
         }
     }
 }

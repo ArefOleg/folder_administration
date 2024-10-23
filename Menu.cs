@@ -60,7 +60,7 @@ public static class Menu{
                         svrmgr.chooseAction();                                        
                 break;
                 case 4:
-                        Console.WriteLine("1 - Declare\n2 - Копирование таблицы\n3 - ");
+                        Console.WriteLine("1 - Declare\n2 - Копирование таблицы\n3 - Создать таблицу");
                         int sqlChoise = Convert.ToInt32(Console.ReadLine());
                         switch(sqlChoise){
                                 case 1:
@@ -70,7 +70,7 @@ public static class Menu{
                                         TableUtility.TableUtility.copyTableAsync();      
                                 break;
                                 case 3:
-                                        TableUtility.TableUtility.copyTableAsync();      
+                                        TableUtility.TableUtility.createTable();      
                                 break;
                                 default:
                                 break;

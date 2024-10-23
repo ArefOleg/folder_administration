@@ -1,10 +1,10 @@
-﻿Console.WriteLine("Для выхода напишите команду exit");
-Console.WriteLine("Выберите тип работы:");
+﻿Console.WriteLine("Выберите тип работы:");
 
 string exit = "N";
 while (!exit.Equals("exit")){
         Menu.showMenu();
-        exit = Convert.ToString(Console.ReadLine());
+        Console.WriteLine("Нажмите любую клавишу для продолжения, или введите exit для выхода.");
+        exit = Console.ReadLine();
 }
 
 
