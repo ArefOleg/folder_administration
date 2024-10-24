@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <soapenv:Envelope xmlns:cus="http://siebel.com/CustomUI"  xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
-  <soapenv:Body>
-    <cus:JET_spcLWS10_spc-_spcAccrual_spcPoints_spcFor_spcAction_Input>
-      <cus:CardNumber>7030040016723301</cus:CardNumber>
-      <cus:Attrib1>Abonement 2000</cus:Attrib1>
-      <cus:Attrib2>1</cus:Attrib2>
-      <cus:Attrib3 />
-      <cus:ProgramName>Teboil</cus:ProgramName>
-      <cus:ActionName>IssueQRAction</cus:ActionName>
-    </cus:JET_spcLWS10_spc-_spcAccrual_spcPoints_spcFor_spcAction_Input>
-  </soapenv:Body>
   <soapenv:Header>
     <wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/07/secext">
       <wsse:UsernameToken xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility">
@@ -18,4 +8,14 @@
       </wsse:UsernameToken>
     </wsse:Security>
   </soapenv:Header>
+  <soapenv:Body>
+    <cus:JET_spcLWS10_spc-_spcAccrual_spcPoints_spcFor_spcAction_Input>
+      <cus:CardNumber>1</cus:CardNumber>
+      <cus:Attrib1>1</cus:Attrib1>
+      <cus:Attrib2>1</cus:Attrib2>
+      <cus:Attrib3>1</cus:Attrib3>
+      <cus:ProgramName>Teboil</cus:ProgramName>
+      <cus:ActionName>1</cus:ActionName>
+    </cus:JET_spcLWS10_spc-_spcAccrual_spcPoints_spcFor_spcAction_Input>
+  </soapenv:Body>
 </soapenv:Envelope>
