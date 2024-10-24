@@ -1,6 +1,6 @@
 public static class TableMenu{
     public static void showMenu(){
-        Console.WriteLine("1 - Declare\n2 - Копирование таблицы\n3 - Создать таблицу\n4 - Информация для апплая");
+        Console.WriteLine("1 - Declare\n2 - Копирование таблицы\n3 - Создать таблицу\n4 - Формат для даты");
                         int sqlChoise = Convert.ToInt32(Console.ReadLine());
                         switch(sqlChoise){
                                 case 1:
@@ -12,7 +12,9 @@ public static class TableMenu{
                                 case 3:
                                         TableUtility.TableUtility.createTable();      
                                 break;
-                                
+                                case 4:
+                                        Console.WriteLine("to_date('09.02.2019 12:00:00','dd.mm.yyyy hh24:MI:SS')");
+                                break;        
                                 default:
                                 break;
                         }   
