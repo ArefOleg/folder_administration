@@ -1,5 +1,5 @@
-public static class TableMenu{
-    public static void showMenu(){
+public static class sqlMenu{
+    public static void sqlMenu(){
         Console.WriteLine("1 - Declare\n2 - Копирование таблицы\n3 - Создать таблицу\n4 - Формат для даты");
                         int sqlChoise = Convert.ToInt32(Console.ReadLine());
                         switch(sqlChoise){
