@@ -1,7 +1,7 @@
 public static class TechInfo{
     public static void techMenu(){
-        Console.WriteLine("1 - Информация о АДМ на DEV\n2 - Доступы к средам\n3 - Информация для апплая\n"
-        + "\n4 Как узнать расположение tns\n5 Доступы");
+        Console.WriteLine("1 Информация о АДМ на DEV\n2 Доступы к средам\n3 Информация для апплая\n"
+        + "4 Как узнать расположение tns\n5 Доступы");
         int techChoise = Convert.ToInt32(Console.ReadLine());
         switch(techChoise){
             case 1:

@@ -64,7 +64,7 @@ public static class Menu{
                         sqlMenu.showMenu();
                 break;
                 case 5:{
-                        
+                        TechInfo.techMenu();
                         break;
                         }                                                       
                 default:
