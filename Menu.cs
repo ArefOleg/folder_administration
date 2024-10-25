@@ -61,7 +61,7 @@ public static class Menu{
                         svrmgr.chooseAction();                                        
                 break;
                 case 4:
-                        TableMenu.showMenu();
+                        sqlMenu.showMenu();
                 break;
                 case 5:{
                         
