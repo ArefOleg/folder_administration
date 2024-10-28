@@ -36,26 +36,7 @@ public static class Menu{
                         }
                 break;
                 case 2:
-                Console.WriteLine("Введите название файла");
-                        string? name = Console.ReadLine();
-                        string fileType="no";
-                        Console.WriteLine("Введите тип файла:");
-                        Console.WriteLine("1 - XML");
-                        Console.WriteLine("2 - Лист поставки");
-                        Console.WriteLine("3 - Работа с консолью");
-                        int fileTypeChoise = Convert.ToInt32(Console.ReadLine());
-                        switch(fileTypeChoise){
-                                case 1:
-                                        fileType = "XML";
-                                        break;
-                                case 2:
-                                        fileType = "ЛП";
-                                        break;                               
-                                        
-                                default:
-                                break;
-                                }
-                        Folder.Generate(name, fileType);
+                        File_Folder.showMenu();
                 break;
                 case 3:
                         svrmgr.chooseAction();                                        
