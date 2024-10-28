@@ -11,7 +11,7 @@ public static class File_Folder{
         int sqlChoise = Convert.ToInt32(Console.ReadLine());
         switch(sqlChoise){
                 case 1:
-                        //
+                        File.Copy(@"Word Template/ЛП минимальный.docx", path + @"\" + name + @"\" + name + ".doc");
                 break;
                 case 2:
                         //     

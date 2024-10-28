@@ -3,7 +3,7 @@ using LWS8Generator;
 using S12Generator;
 public static class Menu{
     public static void showMenu(){
-        Console.WriteLine("1 Работы с XML \n2 Создать папку и файл для Листа поставки\n3 Работы с srvmgr\n4 Вызвать sql скрипты\n"
+        Console.WriteLine("1 Генерация XML для интеграции \n2 Создать папку и файл для Листа поставки\n3 Работы с srvmgr\n4 Вызвать sql скрипты\n"
         + "5 Техническая информация");
         int baseChoise = Convert.ToInt32(Console.ReadLine());
         switch(baseChoise){
