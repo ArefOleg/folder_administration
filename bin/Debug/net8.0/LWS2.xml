@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:cus="http://siebel.com/CustomUI" xmlns:jet="http://www.siebel.com/xml/JETOrderAccrualRedemptionRequest" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header>
+    <UsernameToken xmlns="http://siebel.com/webservices">TEBOIL_INT</UsernameToken>
+    <PasswordText xmlns="http://siebel.com/webservices">TEBOIL_INT</PasswordText>
+    <SessionType xmlns="http://siebel.com/webservices">None</SessionType>
+  </soapenv:Header>
+  <soapenv:Body>
+    <cus:JETLWS2OrderAccrualRedemption_1_Input>
+      <jet:ListOfJetorderaccrualredemptionrequest>
+        <jet:Order>
+          <jet:Revision>1</jet:Revision>
+          <jet:OrderCurrency>643</jet:OrderCurrency>
+          <jet:CardAcceptorId>CardAcceptorId</jet:CardAcceptorId>
+          <jet:LineItems>
+            <jet:PumpNum>1</jet:PumpNum>
+            <jet:AmountAdjusted>350</jet:AmountAdjusted>
+            <jet:LineNumber>1</jet:LineNumber>
+            <jet:NetPrice>350</jet:NetPrice>
+            <jet:Product>6c71e987-91c4-11e9-8116-00155d0d2201</jet:Product>
+            <jet:QuantityRequested>1</jet:QuantityRequested>
+          </jet:LineItems>
+          <jet:OrderNumber>OV1:44:26 31</jet:OrderNumber>
+          <jet:CardNumber>7030040020015959</jet:CardNumber>
+          <jet:OrderDate>244431014435</jet:OrderDate>
+          <jet:OrderAmount>350</jet:OrderAmount>
+          <jet:OrderType>QR-code</jet:OrderType>
+          <jet:Attrib1>attr1</jet:Attrib1>
+          <jet:RRN>OV1:44:26 31</jet:RRN>
+          <jet:DiscountCUR>0</jet:DiscountCUR>
+          <jet:TerminalId>0001187072026239</jet:TerminalId>
+          <jet:AcquiringId>acc1</jet:AcquiringId>
+        </jet:Order>
+      </jet:ListOfJetorderaccrualredemptionrequest>
+    </cus:JETLWS2OrderAccrualRedemption_1_Input>
+  </soapenv:Body>
+</soapenv:Envelope>
